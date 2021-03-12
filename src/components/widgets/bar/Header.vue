@@ -6,25 +6,13 @@
       src="@/assets/logo.png"
       width="45"
     />
-    <span class="title">Geoguess Master</span>
+    <span class="title">Geoguesser</span>
     <div class="flex-grow-1"></div>
     <v-btn 
       text
       color="#FFFFFF"
       href="#section-about">
       <span>ABOUT</span>
-    </v-btn>
-    <v-btn
-      text
-      color="#FFFFFF"
-      href="#section-limitation">
-      <span>LIMITATION</span>
-    </v-btn>
-    <v-btn
-      text
-      color="#FFFFFF"
-      href="#contact">
-      <span>CONTACT</span>
     </v-btn>
   </v-app-bar>
 </template>
