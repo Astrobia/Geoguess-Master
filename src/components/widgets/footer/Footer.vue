@@ -30,14 +30,13 @@
         class="mt-8"
         justify="center"
       >
-        <span id="copyright">All rights reserved. Copyright © {{ new Date().getFullYear() }} <strong>Spider Hand</strong></span>
+        <span id="copyright">Published Under MIT License by <strong>Spider Hand</strong> {{ new Date().getFullYear() }}</span>
       </v-row>
       <v-row 
         class="mt-2"
         justify="center"
       >
-        <span id="credit">Photo by <a href="https://unsplash.com/@timowielink?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Timo Wielink</a> on <a href="https://unsplash.com/s/photos/map?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a> ,
-        Design by <a href="http://www.pauloxgomes.com/">Paulo Gomes</a></span>
+        <span id="credit">Updated and recompiled by Astrobia</span>
       </v-row>
     </v-container>
   </div>
