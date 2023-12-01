@@ -1,6 +1,6 @@
 {
- "name": "Geoguess Master",
- "short_name": "Geoguess Master",
+ "name": "Geoguesser",
+ "short_name": "Geoguesser",
  "icons": [
   {
    "src": "./img/icons/android-icon-36x36.png",
