@@ -8,15 +8,6 @@
         :width="deviceState >= DEVICE_TYPES.TABLET_LANDSCAPE ? 60 : 44"
         :height="deviceState >= DEVICE_TYPES.TABLET_LANDSCAPE ? 60 : 44"
       >
-      <MySpace />
-      <a href="https://github.com/spider-hand/GeoguessMaster">
-        <img
-          src="@/assets/images/github.svg"
-          :class="$style['page__github-ribbon']"
-          alt="Fork me on Github"
-        >
-      </a>
-    </header>
     <AuroraBackground
       :from="'var(--color-brand-light)'"
       :x-percent="'40'"
@@ -47,7 +38,6 @@
 </template>
 
 <script setup lang="ts">
-import MySpace from "@/components/shared/MySpace.vue";
 import AuroraBackground from "@/components/home/AuroraBackground.vue";
 import CreateGameForm from "@/components/home/CreateGameForm.vue";
 import { useDeviceStore } from "@/stores/device";
