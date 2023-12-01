@@ -8,6 +8,7 @@
         :width="deviceState >= DEVICE_TYPES.TABLET_LANDSCAPE ? 60 : 44"
         :height="deviceState >= DEVICE_TYPES.TABLET_LANDSCAPE ? 60 : 44"
       >
+    </header>
     <AuroraBackground
       :from="'var(--color-brand-light)'"
       :x-percent="'40'"
@@ -31,7 +32,7 @@
         }"
       >
         All rights reserved. Copyright © {{ new Date().getFullYear() }}
-        <strong>GeoguessMaster</strong>
+        <strong>Geoguesser</strong>
       </span>
     </footer>
   </div>
